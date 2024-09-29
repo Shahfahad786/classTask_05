@@ -1,0 +1,84 @@
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: rgb(66, 135, 245);
+}
+#container {
+    background-color: rgb(66, 135, 245);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+input {
+    padding: 10px;
+    width: 200px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(66, 135, 245);
+}
+#boxes{
+    display: flex;
+    margin: 10px 10px;
+    align-content: space-evenly;
+}
+#years{
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 40px;
+    width: 50px;
+    display: flex;
+    align-content: space-evenly;
+    margin: 10px 10px;
+}
+#months{
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 40px;
+    width: 50px;
+    display: flex;
+    align-content: space-evenly;
+    margin: 10px 10px;
+}
+#days{
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 40px;
+    width: 50px;
+    display: flex;
+    align-content: space-evenly;
+    margin: 10px 10px;
+}
+#input-container{
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
