@@ -14,7 +14,6 @@ body, html {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
 }
 input {
     padding: 10px;
@@ -22,6 +21,7 @@ input {
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    
 }
 button {
     padding: 10px 15px;
@@ -38,6 +38,7 @@ button:hover {
     display: flex;
     margin: 10px 10px;
     align-content: space-evenly;
+    
 }
 #years{
     background-color: #000000;
@@ -47,9 +48,11 @@ button:hover {
     text-align: center;
     height: 40px;
     width: 50px;
-    display: flex;
+    /* display: flex; */
     align-content: space-evenly;
     margin: 10px 10px;
+    color: #ffffff;
+    font-size: medium;
 }
 #months{
     background-color: #000000;
@@ -59,9 +62,11 @@ button:hover {
     text-align: center;
     height: 40px;
     width: 50px;
-    display: flex;
+    /* display: flex; */
     align-content: space-evenly;
     margin: 10px 10px;
+    color: #ffffff;
+    font-size: medium;
 }
 #days{
     background-color: #000000;
@@ -71,9 +76,11 @@ button:hover {
     text-align: center;
     height: 40px;
     width: 50px;
-    display: flex;
+    /* display: flex; */
     align-content: space-evenly;
     margin: 10px 10px;
+    color: #ffffff;
+    font-size: medium;
 }
 #input-container{
     background-color: #000000;
@@ -81,4 +88,15 @@ button:hover {
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+}
+p{
+    color: #ffffff;
+    font-size: medium;
+    
+    
+}
+#timing{
+    color: #ffffff;
+    font-size: large;
+    margin-top: 0px;
 }
